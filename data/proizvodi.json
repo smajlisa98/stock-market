@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "slika":{
+            "src":"images/c1.jpg",
+            "alt":"MAHINDRA AND MAHINDRA"
+        },
+        "ime":"Mahindra AND Mahindra",
+        "akcija": 800,
+        "tip":1
+    
+    },
+    {
+        "id":2,
+        "slika":{
+            "src":"images/c1.jpg",
+            "alt":"APPLE INC"
+        },
+        "ime":"Aple Inc",
+        "akcija": 125.89 ,
+        "tip":2
+    
+    },
+    {
+        "id":3,
+        "slika":{
+            "src":"images/c1.jpg",
+            "alt":"UNION BANK"
+        },
+        "ime":"Union Bank",
+        "akcija": 35,
+        "tip":3
+    
+    },
+    {
+        "id":4,
+        "slika":{
+            "src":"images/c1.jpg",
+            "alt":"AMAZON"
+        },
+        "ime":"Amazon",
+        "akcija": 3206,
+        "tip":2
+    
+    },
+    {
+        "id":5,
+        "slika":{
+            "src":"images/c1.jpg",
+            "alt":"CENTRAL BANK"
+        },
+        "ime":"Central Bank",
+        "akcija": 21.3,
+        "tip":3
+    
+    },
+    {
+        "id":6,
+        "slika":{
+            "src":"images/c1.jpg",
+            "alt":"TESLA"
+        },
+        "ime":"tesla",
+        "akcija": 599,
+        "tip":1
+    
+    }
+]

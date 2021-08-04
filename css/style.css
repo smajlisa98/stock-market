@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    }
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+
+.nav-link{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.border{
+    border: 2px solid red;
+}
+
+
+
+
+

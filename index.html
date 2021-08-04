@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="css\style.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body class="bg-dark"> 
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">TradeInc</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#onama" type="onm" onclick="smoothScroll(document.getElementById('onama'))">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html" style="border:1px solid gray;border-radius:9%;">Log in</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- Navbar -->
+      
+        <!-- Background image -->
+        <div
+          class="p-5 text-center bg-image"
+             style="
+           background-image: url('https://traderrr.com/wp-content/uploads/2020/07/japanese-candlesticks-charting-in-market-trading-technical-analysis-1024x768.jpg');
+            height: 600px;
+            margin-top: 40px;
+            
+          " 
+        >
+          <div class="mask" style="background-color: hsla(0, 1%, 32%, 0.6);
+          margin-top:10%;">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3">Trade Inc</h1>
+                <h4 class="mb-3">Stock Market Monitoring</h4>
+                <a class="btn btn-outline-light btn-lg" href="#lineChart" style="margin-bottom: 10%;" role="button"
+                onclick="smoothScroll(document.getElementById('lineChart'))" >Chart</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Background image -->
+      </header>
+      <div class="onama container" id="onama">
+        <div class="row">
+            <div class="container col-sm-12 col-md-12 col-lg-12" >
+                <div class="tekst o nama" style="border-bottom:1px solid gray;margin-bottom:20px;">
+                    <div class="mask" style="background-color: hsla(0, 1%, 32%, 0.3);margin-bottom:20px;">
+                      <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="text-white">
+                          <h4 class="mb-3" style="text-align: center; padding-top:50px;padding-bottom:40px;">O nama</h4>
+                          
+                    <div class="tekst" style="text-align: center;padding-left: 5%; padding-right: 5%;  ">
+                        <p>
+                          
+                          „Tradeinc“ osnovana je u Beogradu 2008. godine. odlukom Vlade Republike Srbije, kao mesto organizovanja robno-berzanskih sastanaka i informisanja javnosti o zaključenim robno-berzanskim transakcijama. Prvi berzanski sastanak organizovan je 29. maja, 2009. godine. Od osnivanja do danas, preko „Tradeinc“, prometovano je preko 16 miliona evra kapitala.
+
+„Tradeinc“ se danas nalazi na Bulevaru Mihaila Pupina br. 15, u Beogradu i posluje kao preduzeće za robno-berzansko posredovanje i informisanje. Preduzeće je statusno organizovano kao nejavno jednočlano akcionarsko društvo u vlasništvu države.
+                          <br/>
+                          <br/>
+                          Moje ime je Matija Pleskonjic. Osnivač sam kuće Tradeinc Investments i posedujem dugogodišnje međunarodno iskustvo u investicijama koje sam sticao radeći u tri evropske države – Nemačkoj, Slovačkoj i Srbiji.
+
+Kao neko ko već niz godina posluje u oblasti korporativnih finansija i upravljanja investicijama, aktivno prati i ulaže na berzanskom i tržištu nekretnina, želeo sam da svoja dragocena znanja u oblasti uvećanja kapitala i investicija prenesem širem broju ljudi kroz konsultantski i predavački posao.
+<br/>
+<br/>
+Pre mog ulaska u svet finansija i investicija, iskustvo sam sticao u oblasti komunikacija, što je jedan od ključnih segmenata prilikom pregovora kupovne ili prodajne cene, tj. realizacije same investicije.
+<br/>
+<br/>
+Radujemo se mogućoj saradnji i upoznavanju sa Vama, biće nam zadovoljstvo.
+<br/>
+<br/>
+Srdačno,
+<br/>
+Matija Pleskonjic <br/>
+Osnivač Tradeinc Investments
+<br/><br/>
+                        </p>
+                    </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                   
+                  </div>
+
+
+            </div>
+
+            <div class="card bg-default bg-dark">
+              <div class="card-body">
+                  <div class="chart bg-dark">
+                    <canvas id="lineChart"></canvas>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small bg-dark" style="margin-top:40px; border-top:1px solid gray;">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright: Matija Pleskonjic
+      
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.js"></script>
+    <script src="js/jquery.js" ></script>
+    <script type="text/javascript" src="js/chart.js"></script>
+</body>
+</html>
